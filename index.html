@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+         .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #left-frame-content {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 25%;
+            border-right: 1px solid #ccc;
+            overflow: hidden;
+            z-index: 999;
+        }
+
+        #right-frame-content {
+            margin-left: 25%;
+            padding-left: 20px; 
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info .material-icons {
+            margin-right: 5px;
+        }
+        .btn-group-vertical {
+            width: 100%;
+        }
+        .btn-group-vertical .btn {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 5px;
+            color: black;
+            background-color: #07a8ff;
+        }
+        .btn-group-vertical .btn:hover {
+            background-color: #134889; 
+        }
+        .rounded-image {
+            border: 3px solid black;
+            border-radius: 100px;
+            overflow: hidden;
+        }
+
+        .rounded-image img {
+            border-radius: 100px;
+            width: 100%;
+            height: auto;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="left-frame-content" class="col-md-4 px-2 py-2">
+                <div class="container-fluid bg-danger text-center py-3">
+                    <h1 class="text-light"><b>LOKITHA</b></h1>
+                    <div class="web"><b><marquee>Web developer</marquee></b></div>
+                </div>
+                
+                <div class="container mt-2">
+                    <div class="row justify-content-center">
+                        <div class="col-18 text-center mt-4 rounded-image">
+                            <img src="pic.png" class="img-fluid border border-dark" alt="check" style="max-height: 220px; max-width: 180px;">
+                        </div>
+                        <div class="col-18 text-center mt-4">
+                            <div class="btn-group-vertical">
+                                <a href="#objective" class="btn btn-primary"><b>OBJECTIVE</b></a>
+                                <a href="#education" class="btn btn-primary"><b>EDUCATIONAL QUALIFICATION</b></a>
+                                <a href="#skills" class="btn btn-primary"><b>SKILLS</b></a>
+                                <a href="#area_of_interest" class="btn btn-primary"><b>AREA OF INTEREST</b></a>
+                                <a href="#technical_works" class="btn btn-primary"><b>TECHNICAL WORKS</b></a>
+                                <a href="#professional_summary" class="btn btn-primary"><b>PROFESSIONAL SUMMARY</b></a>
+                                <a href="#contact" class="btn btn-primary"><b>CONTACT</b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right-frame-content" class="col-md-8 px-4 py-3">
+                <style>
+                    body {
+                        background: linear-gradient(to right, #dc3caf, #b5107b);
+                        color : black;
+                    }
+                    .section-title {
+                        color : #07a8ff;
+                        margin-top: 40px;
+                    }
+                    .section-content {
+                        margin-bottom: 40px;
+                    }
+                    .attachment-link {
+                        color: white;
+                    }
+                </style>
+            
+        
+            <div class="container">
+                <div class="section-title" id="objective"><h1>Objective</h1></div>
+                <hr class="section-content">
+                <div class="section-content">
+                    <h3>To be committed and efficient in my work and to enhance the growth of the organization by improving and applying my competency at work.</h3>
+                </div>
+            
+                <div class="section-title" id="education"><h1>Educational Qualification</h1></div>
+                <hr class="section-content">
+                <div class="section-content">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the Degree</th>
+                                <th>Name of the institution</th>
+                                <th>Year of passing</th>
+                                <th>Percentage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>SSLC</td>
+                                <td>KONGU VELLALAR HIGHER SEC.SCHOOL,PERUNDURAI</td>
+                                <td>2020</td>
+                                <td>82.8%</td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>HSC</td>
+                                <td>SVN MATRIC.HR.SEC.SCHOOL,CHITHODE</td>
+                                <td>2022</td>
+                                <td>87.8%</td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>B.Tech IT</td>
+                                <td>KONGU ENGINEERING COLLEGE,PERUNDURAI</td>
+                                <td>2023</td>
+                                <td>89.0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+                <div class="section-title" id="skills"><h1>Skills</h1></div>
+                <hr class="section-content">
+                <div class="section-content">
+                    <h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Web design</li>
+                        <li class="list-group-item">Front End coding</li>
+                        <li class="list-group-item">Problem-Solving</li>
+                        <li class="list-group-item">Project Management</li>
+                        <li class="list-group-item">Strong Communication</li>
+                        <li class="list-group-item">Team Management</li>
+                    </ul></h5>
+                </div>
+            
+                <div class="section-title" id="area_of_interest"><h1>Area of Interest</h1></div>
+                <hr class="section-content">
+                <div class="sec/h4tion-content">
+                    <h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Database System</li>
+                        <li class="list-group-item">Human Interaction</li>
+                        <li class="list-group-item">Graphics Designing</li>
+                        <li class="list-group-item">Machine Learning</li>
+                    </ul>
+                    </h5>
+                </div>
+            
+                <div class="section-title" id="technical_works"><h1>Technical Works</h1></div>
+                <hr class="section-content">
+                <div class="section-content">
+                    <h5>
+                    <ol class="list-group">
+                        <li class="list-group-item">Presented Paper on Drone technology</li>
+                        <li class="list-group-item">Presented Paper on Hospital at Home</li>
+                        <li class="list-group-item">Completed Certification Course on Artificial Intelligence and Data Science</li>
+                    </ol>
+                    </h5>
+                </div>
+            
+                <div class="section-title" id="professional_summary"><h1>Professional Summary</h1></div>
+                    <hr class="section-content">
+                    <div class="section-content">
+                        <h3>Self-driven and Certified recent graduate seeking a full-time position as a web developer to leverage strong design skills. Experienced in both front-end and back-end development, with a passion for learning and adapting to new technologies and frameworks.</h3>
+                    </div>
+                
+                    <div class="section-title" id="contact"><h1>Contact</h1></div>
+                    <hr class="section-content">
+                    <div class="section-content">
+                        <i class="material-icons">person</i>
+                       <b>91+ 9629925303</b><br>
+                    <i class="material-icons">attachment</i>
+                    <b><a class="attachment-link" href="https://www.linkedin.com/in/lokitha-kandasamy-136568259/" target="_blank"> LinkedIn Profile</a></b>
+                </div>
+            </div>
+    
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
